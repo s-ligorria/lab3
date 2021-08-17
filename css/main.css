@@ -1,0 +1,335 @@
+:root{
+    --fuente1: 'Bebas Neue', cursive;
+    --fuente2: 'Lobster', cursive;
+    --fuente3: 'Montserrat', sans-serif;
+    --blanco: white;
+    --amarillo: #f8c471;
+    --claro: #fcf3cf;
+    --azul: #335774;
+    --aqua: #35b5be;
+    --aquac: #050c2c;
+}
+
+body{
+    font-family: var(--fuente3);
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    background-color: var(--blanco);
+}
+
+/* INICIO INDEX */
+/* INICIO HEADER */
+.menu{
+    display: flex;
+    padding: 0px 20px 5px 20px;
+    height: 80px;
+    background-color: var(--aqua);
+    border-top: 6px solid var(--aquac);
+    justify-content: space-between;
+}
+
+.union{
+    display: flex;
+}
+
+.union img{
+    width: 75px;
+    height: 75px;
+    padding: 3px;
+}
+
+.union h1{
+    line-height: 0px;
+    font-size: 70px;
+    margin-left: 7px;
+    font-family: var(--fuente1);
+    color: var(--aquac);
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    display: inline;
+}
+
+nav li a{
+    text-decoration: none;
+    color: var(--aqua);
+    padding: 2px 7px 2px 7px;
+    background-color: #eeeeee;
+    border: 1px solid var(--blanco);
+    font-family: var(--fuente1);
+    font-size: 33px;
+    margin: 5px;
+    line-height: 50px;
+    border-radius: 5px;
+}
+
+nav li a:hover{
+    background-color: var(--aqua);
+    border: 1px solid var(--blanco);
+    color: var(--blanco);
+    border-radius: 5px;
+    transition: 350ms;
+    cursor: pointer;
+}
+/* FIN HEADER */
+/* INICIO MAIN */
+.inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 30px;
+    background-color: #35b5be9a;
+    flex-wrap: wrap;
+}
+
+.info1{
+    width: 500px;
+    margin: 20px;
+    text-align: center;
+}
+
+.info1 h1{
+    color: var(--aquac);
+    font-family: var(--fuente2);
+    font-size: 40px;
+}
+
+.redi a{
+    text-decoration: none;
+    background-color: var(--aquac);
+    color: var(--blanco);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.redi a:hover{
+    background-color: var(--blanco);
+    color: var(--aquac);
+    transition: 250ms;
+    cursor: pointer;
+}
+
+iframe{
+    margin: 5px;
+}
+
+hr{
+    width: 90%;
+}
+/* FIN INDEX*/
+/* INICIO TRAYECTORIA */
+.estudios{
+    text-align: center;
+}
+
+.estudios h1{
+    font-family: var(--fuente2);
+    color: var(--aquac);
+    font-size: 40px;
+}
+
+.colegios{
+    display: flex;
+    margin: 30px;
+    padding: 20px;
+    border: 3px solid var(--aqua);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.colegio{
+    margin: 5px;
+}
+
+.colegio img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.colegio h2{
+    font-family: var(--fuente1);
+    font-size: 30px;
+    color: var(--aquac);
+    margin: 0px;
+    padding: 0px;
+}
+
+.skills{
+    text-align: center;
+    background-color: var(--aqua);
+    padding: 20px;
+}
+
+.skills h1{
+    color: var(--aquac);
+    font-family: var(--fuente2);
+    font-size: 40px;
+}
+
+.habilidad{
+    display: flex;
+    margin: 30px;
+    padding: 20px;
+    border: var(--aqua) solid 3px;
+    border-radius: 10px;
+    background-color: rgba(249, 255, 255, 0.459);
+}
+
+.habilidad h2{
+    font-family: var(--fuente1);
+    color: var(--aquac);
+    font-size: 30px;
+}
+
+.textohab{
+    margin: 20px;
+}
+
+.habilidad:hover{
+    background-color: var(--blanco);
+    transition: 250ms;
+}
+/* FIN TRAYECTORIA */
+/* INICIO PROYECTOS */
+.proyectos{
+    text-align: center;
+}
+
+.proyectos h1{
+    font-family: var(--fuente2);
+    color: var(--aquac);
+    font-size: 40px;
+}
+
+.conproyec{
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.proyecto{
+    margin: 10px;
+    padding: 10px;
+    width: 360px;
+    background-color: #35b5be9a;
+}
+
+.proyecto img{
+    width: 350px;
+}
+
+.infoproyec{
+    margin: 10px;
+}
+
+.infoproyec a{
+    text-decoration: none;
+    background-color: var(--aquac);
+    color: var(--aqua);
+    font-family: var(--fuente1);
+    padding: 7px 50px 7px 50px;
+    margin: 15px;
+}
+
+.infoproyec a:hover{
+    background-color: rgba(249, 255, 255, 0.459);
+    color: var(--aquac);
+    transition: 250ms;
+}
+/* FIN PROYECTOS */
+/* INICIO CONTACTO */
+.contacto h1{
+    text-align: center;
+    font-family: var(--fuente2);
+    font-size: 40px;
+    color: var(--aquac);
+}
+
+.contacto1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 20px;
+    background-color: #35b5be9a;
+}
+
+.formulario{
+    margin-right: 30px;
+}
+
+.formulario form input{
+    width: 300px;
+    height: 30px;
+    border: var(--aqua) solid 2px;
+}
+
+.boton{
+    background-color: var(--aquac);
+    color: var(--blanco);
+    font-family: var(--fuente1);
+    font-size: 20px;
+}
+
+.boton:hover{
+    background-color: var(--blanco);
+    color: var(--aqua);
+    transition: 250ms;
+    cursor: pointer;
+}
+
+.formulario form label{
+    font-family: var(--fuente1);
+    font-size: 25px;
+    color: var(--aquac);
+}
+
+.redes{
+    margin-left: 50px;
+}
+
+.redes h2{
+    
+    font-family: var(--fuente1);
+    color: var(--aquac);
+}
+
+.red{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.red img{
+    width: 32px;
+    height: 32px;
+}
+
+.red a{
+    text-decoration: none;
+    background-color: var(--aquac);
+    color: var(--aqua);
+    font-family: var(--fuente1);
+    padding: 7px 50px 7px 50px;
+    margin: 15px;
+}
+
+.red a:hover{
+    background-color: rgba(249, 255, 255, 0.459);
+    color: var(--aquac);
+    transition: 250ms;
+}
+
+.inforedes{
+    display: flex;
+}
